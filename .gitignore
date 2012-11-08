@@ -1,0 +1,6 @@
+*.pyc
+.*.swp
+*~
+*.db
+*/settings/local.py
+*/site_media/*
