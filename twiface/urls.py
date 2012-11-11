@@ -14,6 +14,6 @@ urlpatterns = patterns('',
     url(r'^$', 'twiface.views.home'),
     url(r'^login$', 'twiface.views.login', name='login_url'),
     url(r'^logout$','django.contrib.auth.views.logout',name='logout'),
-    url(r'cutomize$', 'twiface.userprofile.views.create_background', name='customize'),
+    url(r'customize$', 'twiface.userprofile.views.create_background', name='customize'),
     url(r'', include('social_auth.urls')),
 )
